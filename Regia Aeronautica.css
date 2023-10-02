@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://media.npr.org/assets/img/2012/11/09/01_posters_slide-f0f2ec5dd1b8ebd6728c4b47bce3054b673211b0-s800-c85.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sinpe {
+    display: flex;
+    justify-content: center;
+    width: 200vh;
+   
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+input, button {
+    padding: 10px;
+    color: rgb(182, 5, 5);
+    background-color: rgb(219, 201, 4);
+
+}
+
+form input {
+margin: 0 20px;
+
+}
+
+ul {
+    list-style: none;
+    color: rgb(182, 5, 5);
+    font-size: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.buttoes button{
+    margin: 0 15px 20px;
+}
+
+h1 {
+    color: rgb(251, 46, 0);
+}
